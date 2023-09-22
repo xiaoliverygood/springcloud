@@ -6,3 +6,11 @@ spring:
     url: jdbc:mysql://114.132.67.226:3306/springcloud
     username: xiaoli
     password: abC123456@
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 159.75.156.115:8848
+
+  application:
+      name: user
